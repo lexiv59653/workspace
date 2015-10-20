@@ -1,0 +1,19 @@
+package stringTester;
+
+public class testImmutableString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String myFirstName= "Lexi";
+		String myLastName= "Veleva";
+		
+		System.out.println("my reference is "+ myFirstName);
+		// returns "my reference is Lexi"
+		
+		System.out.println(myFirstName.equals(myLastName));
+		
+		
+	}
+
+}
